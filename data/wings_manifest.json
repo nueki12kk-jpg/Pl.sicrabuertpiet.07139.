@@ -1,0 +1,380 @@
+[
+  {
+    "id": 0,
+    "name": "Normal",
+    "texture": "wings0",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (52).png"
+  },
+  {
+    "id": 1,
+    "name": "Cian",
+    "texture": "wings1",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (53).png"
+  },
+  {
+    "id": 2,
+    "name": "Galaxia",
+    "texture": "wings2",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (54).png"
+  },
+  {
+    "id": 3,
+    "name": "Verde",
+    "texture": "wings3",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (55).png"
+  },
+  {
+    "id": 4,
+    "name": "Vermelha",
+    "texture": "wings4",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (56).png"
+  },
+  {
+    "id": 5,
+    "name": "Roxa",
+    "texture": "wings5",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (57).png"
+  },
+  {
+    "id": 6,
+    "name": "Vermelha 2",
+    "texture": "wings6",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (58).png"
+  },
+  {
+    "id": 7,
+    "name": "Verde 2",
+    "texture": "wings7",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (59).png"
+  },
+  {
+    "id": 8,
+    "name": "Roxa 2",
+    "texture": "wings8",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (60).png"
+  },
+  {
+    "id": 9,
+    "name": "Cinza",
+    "texture": "wings9",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (61).png"
+  },
+  {
+    "id": 10,
+    "name": "Dourada",
+    "texture": "wings10",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (49).png"
+  },
+  {
+    "id": 11,
+    "name": "Solar Ember",
+    "texture": "wings11",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (1).png"
+  },
+  {
+    "id": 12,
+    "name": "Crimson Veil",
+    "texture": "wings12",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file.png"
+  },
+  {
+    "id": 13,
+    "name": "Verdant Flame",
+    "texture": "wings13",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (2).png"
+  },
+  {
+    "id": 14,
+    "name": "Frostwing",
+    "texture": "wings14",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (3).png"
+  },
+  {
+    "id": 15,
+    "name": "Obsidian",
+    "texture": "wings15",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (4).png"
+  },
+  {
+    "id": 16,
+    "name": "Azure Rift",
+    "texture": "wings16",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (5).png"
+  },
+  {
+    "id": 17,
+    "name": "Sapphire Night",
+    "texture": "wings17",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (6).png"
+  },
+  {
+    "id": 18,
+    "name": "Ivory Feather",
+    "texture": "wings18",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (7).png"
+  },
+  {
+    "id": 19,
+    "name": "Mystic Bloom",
+    "texture": "wings19",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (8).png"
+  },
+  {
+    "id": 20,
+    "name": "Golden Monarch",
+    "texture": "wings20",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (9).png"
+  },
+  {
+    "id": 21,
+    "name": "Arctic Shard",
+    "texture": "wings21",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (10).png"
+  },
+  {
+    "id": 22,
+    "name": "Shadowsteel",
+    "texture": "wings22",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (11).png"
+  },
+  {
+    "id": 23,
+    "name": "Mossbound",
+    "texture": "wings23",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (12).png"
+  },
+  {
+    "id": 24,
+    "name": "Scarlet Fang",
+    "texture": "wings24",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (13).png"
+  },
+  {
+    "id": 25,
+    "name": "Midnight Blue",
+    "texture": "wings25",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (14).png"
+  },
+  {
+    "id": 26,
+    "name": "Amethyst Glow",
+    "texture": "wings26",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (15).png"
+  },
+  {
+    "id": 27,
+    "name": "Twilight Violet",
+    "texture": "wings27",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (16).png"
+  },
+  {
+    "id": 28,
+    "name": "Amberflare",
+    "texture": "wings28",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (17).png"
+  },
+  {
+    "id": 29,
+    "name": "Neon Surge",
+    "texture": "wings29",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (18).png"
+  },
+  {
+    "id": 30,
+    "name": "Emerald Edge",
+    "texture": "wings30",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (19).png"
+  },
+  {
+    "id": 31,
+    "name": "Phantom Talon",
+    "texture": "wings31",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (20).png"
+  },
+  {
+    "id": 32,
+    "name": "Bloodthorn",
+    "texture": "wings32",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (21).png"
+  },
+  {
+    "id": 33,
+    "name": "Webweaver",
+    "texture": "wings33",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (22).png"
+  },
+  {
+    "id": 34,
+    "name": "Void Violet",
+    "texture": "wings34",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (23).png"
+  },
+  {
+    "id": 35,
+    "name": "Glacier",
+    "texture": "wings35",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (24).png"
+  },
+  {
+    "id": 36,
+    "name": "Rose Quartz",
+    "texture": "wings36",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (25).png"
+  },
+  {
+    "id": 37,
+    "name": "Silvermist",
+    "texture": "wings37",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (26).png"
+  },
+  {
+    "id": 38,
+    "name": "Mint Crystal",
+    "texture": "wings38",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (27).png"
+  },
+  {
+    "id": 39,
+    "name": "Burnt Amber",
+    "texture": "wings39",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (28).png"
+  },
+  {
+    "id": 40,
+    "name": "Inferno",
+    "texture": "wings40",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (29).png"
+  },
+  {
+    "id": 41,
+    "name": "Purelight",
+    "texture": "wings41",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (30).png"
+  },
+  {
+    "id": 42,
+    "name": "Magenta Pulse",
+    "texture": "wings42",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (31).png"
+  },
+  {
+    "id": 43,
+    "name": "Candy Bloom",
+    "texture": "wings43",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (32).png"
+  },
+  {
+    "id": 44,
+    "name": "Darksteel",
+    "texture": "wings44",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (33).png"
+  },
+  {
+    "id": 45,
+    "name": "Deep Azure",
+    "texture": "wings45",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (34).png"
+  },
+  {
+    "id": 46,
+    "name": "Dusk Emerald",
+    "texture": "wings46",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (35).png"
+  },
+  {
+    "id": 47,
+    "name": "Golden Radiance",
+    "texture": "wings47",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (36).png"
+  },
+  {
+    "id": 48,
+    "name": "Forest Spirit",
+    "texture": "wings48",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (37).png"
+  },
+  {
+    "id": 49,
+    "name": "Hot Pink",
+    "texture": "wings49",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (38).png"
+  },
+  {
+    "id": 50,
+    "name": "Royal Violet",
+    "texture": "wings50",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (39).png"
+  },
+  {
+    "id": 51,
+    "name": "Crimson Shadow",
+    "texture": "wings51",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (40).png"
+  },
+  {
+    "id": 52,
+    "name": "Flare",
+    "texture": "wings52",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (41).png"
+  },
+  {
+    "id": 53,
+    "name": "Solar Orange",
+    "texture": "wings53",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (42).png"
+  },
+  {
+    "id": 54,
+    "name": "Moonlight",
+    "texture": "wings54",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (43).png"
+  },
+  {
+    "id": 55,
+    "name": "Blackout",
+    "texture": "wings55",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (44).png"
+  },
+  {
+    "id": 56,
+    "name": "Tigerstrike",
+    "texture": "wings56",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (45).png"
+  },
+  {
+    "id": 57,
+    "name": "Tropical Tide",
+    "texture": "wings57",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (46).png"
+  },
+  {
+    "id": 58,
+    "name": "Jungle Shade",
+    "texture": "wings58",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (47).png"
+  },
+  {
+    "id": 59,
+    "name": "Whiteout",
+    "texture": "wings59",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (48).png"
+  },
+  {
+    "id": 60,
+    "name": "Ancient Gold",
+    "texture": "wings60",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (49).png"
+  },
+  {
+    "id": 61,
+    "name": "Sunfire",
+    "texture": "wings61",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (50).png"
+  },
+  {
+    "id": 62,
+    "name": "Aqua Surge",
+    "texture": "wings62",
+    "icon": "/assets/moonlight/cosmetics/icons/wings/file (51).png"
+  }
+]

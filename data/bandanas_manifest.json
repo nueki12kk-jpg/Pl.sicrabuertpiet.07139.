@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Bandana 1",
+    "texture": "bandana1"
+  },
+  {
+    "id": 2,
+    "name": "Bandana 2",
+    "texture": "bandana2"
+  },
+  {
+    "id": 3,
+    "name": "Bandana 3",
+    "texture": "bandana3"
+  },
+  {
+    "id": 4,
+    "name": "Bandana 4",
+    "texture": "bandana4"
+  },
+  {
+    "id": 5,
+    "name": "Bandana 5",
+    "texture": "bandana5"
+  },
+  {
+    "id": 6,
+    "name": "Bandana 6",
+    "texture": "bandana6"
+  },
+  {
+    "id": 7,
+    "name": "Bandana 7",
+    "texture": "bandana7"
+  },
+  {
+    "id": 8,
+    "name": "Bandana 8",
+    "texture": "bandana8"
+  },
+  {
+    "id": 9,
+    "name": "Bandana 9",
+    "texture": "bandana9"
+  },
+  {
+    "id": 10,
+    "name": "Bandana 10",
+    "texture": "bandana10"
+  },
+  {
+    "id": 11,
+    "name": "Bandana 11",
+    "texture": "bandana11"
+  },
+  {
+    "id": 12,
+    "name": "Bandana 12",
+    "texture": "bandana12"
+  },
+  {
+    "id": 13,
+    "name": "Bandana 13",
+    "texture": "bandana13"
+  },
+  {
+    "id": 14,
+    "name": "Bandana 14",
+    "texture": "bandana14"
+  },
+  {
+    "id": 15,
+    "name": "Bandana 15",
+    "texture": "bandana15"
+  },
+  {
+    "id": 16,
+    "name": "Bandana 16",
+    "texture": "bandana16"
+  },
+  {
+    "id": 17,
+    "name": "Bandana 17",
+    "texture": "bandana17"
+  },
+  {
+    "id": 18,
+    "name": "Bandana 18",
+    "texture": "bandana18"
+  },
+  {
+    "id": 19,
+    "name": "Bandana 19",
+    "texture": "bandana19"
+  },
+  {
+    "id": 20,
+    "name": "Bandana 20",
+    "texture": "bandana20"
+  },
+  {
+    "id": 21,
+    "name": "Bandana 21",
+    "texture": "bandana21"
+  }
+]

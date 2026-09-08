@@ -1,0 +1,22 @@
+[
+  { "id": 0,  "name": "Default",      "texture": "default" },
+  { "id": 1,  "name": "Owner",        "texture": "owner" },
+  { "id": 2,  "name": "Co-Founder",   "texture": "co-founder" },
+  { "id": 3,  "name": "Founder",      "texture": "founder" },
+  { "id": 4,  "name": "Admin",        "texture": "admin" },
+  { "id": 5,  "name": "Manager",      "texture": "manager" },
+  { "id": 6,  "name": "Developer",    "texture": "developer" },
+  { "id": 7,  "name": "Designer",     "texture": "designer" },
+  { "id": 8,  "name": "Sr. Mod",      "texture": "srmod" },
+  { "id": 9,  "name": "Moderator",    "texture": "moderator" },
+  { "id": 10, "name": "Mod",          "texture": "mod" },
+  { "id": 11, "name": "Tester",       "texture": "tester" },
+  { "id": 12, "name": "Partner",      "texture": "partner" },
+  { "id": 13, "name": "YouTube",      "texture": "youtube" },
+  { "id": 14, "name": "Twitch",       "texture": "twitch" },
+  { "id": 15, "name": "VIP+",         "texture": "vip+" },
+  { "id": 16, "name": "Premium+",     "texture": "premium+" },
+  { "id": 17, "name": "Nitro Booster","texture": "nitrobooster" },
+  { "id": 18, "name": "Blue",         "texture": "blue" },
+  { "id": 19, "name": "Verde",        "texture": "verde" }
+]
