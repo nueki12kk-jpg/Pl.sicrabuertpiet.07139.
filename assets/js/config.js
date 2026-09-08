@@ -1,6 +1,6 @@
 const MOONLIGHT_CONFIG = {
-    dataOwner: "SEU_USUARIO_GITHUB",
-    dataRepo: "moonlight-data",
+    dataOwner: "nueki12kk-jpg",
+    dataRepo: "Pl.sicraplbirrt.07140.",
     dataBranch: "main",
     get cdnBase() {
         return `https://cdn.jsdelivr.net/gh/${this.dataOwner}/${this.dataRepo}@${this.dataBranch}/players/`;
