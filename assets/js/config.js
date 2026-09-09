@@ -2,6 +2,7 @@ const MOONLIGHT_CONFIG = {
     dataOwner: "nueki12kk-jpg",
     dataRepo: "Pl.sicraplbirrt.07140.",
     dataBranch: "main",
+    downloadUrl: "COLOQUE_AQUI_O_LINK_DE_DOWNLOAD",
     get cdnBase() {
         return `https://cdn.jsdelivr.net/gh/${this.dataOwner}/${this.dataRepo}@${this.dataBranch}/players/`;
     }
