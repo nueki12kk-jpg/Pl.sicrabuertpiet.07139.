@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -214,18 +218,16 @@ a {
 }
 
 .feature-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #ffffff;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .feature-icon img {
-    width: 22px;
-    height: 22px;
+    width: 26px;
+    height: 26px;
 }
 
 .fps-card {
@@ -238,35 +240,58 @@ a {
 }
 
 .fps-row {
-    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.fps-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.fps-icon img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+
+.fps-bar-area {
+    flex: 1;
     text-align: left;
 }
 
 .fps-label {
     display: block;
     font-weight: 800;
-    margin-bottom: 8px;
-    text-align: center;
+    font-size: 13px;
+    margin-bottom: 6px;
 }
 
-.fps-holder {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    background: #ffffff;
+.fps-track {
+    background: #1c1c1c;
     border-radius: 999px;
-    padding: 8px 16px;
-    height: 44px;
+    height: 14px;
+    overflow: hidden;
 }
 
-.fps-holder img {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
+.fps-fill {
+    width: 0;
+    height: 100%;
+    border-radius: 999px;
+    background: #8a8a8a;
+    transition: width 1.2s ease;
 }
 
-.fps-us img {
-    filter: invert(1);
+.fps-fill-us {
+    background: linear-gradient(90deg, #ffffff, #cfcfcf);
 }
 
 .fps-config {
@@ -326,6 +351,78 @@ a {
 .footer-social img {
     width: 30px;
     height: 30px;
+}
+
+.pill,
+.icon-btn img,
+.card,
+.faq-item {
+    transition: transform 0.25s ease, opacity 0.25s ease, background 0.25s ease;
+}
+
+.pill:hover {
+    transform: translateY(-2px);
+}
+
+.card:hover,
+.faq-item:hover {
+    border-color: #666666;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.lang-dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lang-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    background: #2b2b2b;
+    border: 1px solid #444444;
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 100px;
+    z-index: 30;
+    opacity: 0;
+    transform: translateY(-6px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.lang-menu.open {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.lang-menu button {
+    background: none;
+    border: none;
+    color: #e6e6e6;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.lang-menu button:hover {
+    background: #3a3a3a;
 }
 
 .footer-copy {
