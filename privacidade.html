@@ -16,10 +16,18 @@
         <span class="brand-sub">Client</span>
     </a>
     <div class="topbar-actions">
-        <button class="icon-btn" id="lang-btn" aria-label="Idioma">
-            <img src="assets/img/ui/globe.png" alt="">
-        </button>
-        <span class="lang-pill">PT/BR</span>
+        <div class="lang-dropdown">
+            <button class="icon-btn" id="lang-btn" aria-label="Idioma">
+                <img src="assets/img/ui/globe.png" alt="">
+            </button>
+            <span class="lang-pill"><span id="lang-current">PT/BR</span></span>
+            <div class="lang-menu" id="lang-menu">
+                <button data-lang="pt-br">PT/BR</button>
+                <button data-lang="pt-pt">PT/PT</button>
+                <button data-lang="en-us">EN/US</button>
+                <button data-lang="es">ES</button>
+            </div>
+        </div>
         <button class="icon-btn" id="menu-btn" aria-label="Menu">
             <img src="assets/img/ui/burger.png" alt="">
         </button>
@@ -34,7 +42,7 @@
     <a href="faq.html">FAQ</a>
 </nav>
 
-<main class="section legal-content">
+<main class="section legal-content reveal">
     <h1>Política de Privacidade — Moonlight Client</h1>
 
     <h2>1. Coleta de Informações</h2>
@@ -83,6 +91,8 @@
     <p class="footer-copy">© MOONLIGHT CLIENT 2026. Todos os direitos reservados.</p>
 </footer>
 
+<script src="assets/js/config.js"></script>
+<script src="assets/js/i18n.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

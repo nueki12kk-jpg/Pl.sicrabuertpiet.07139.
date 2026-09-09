@@ -16,10 +16,18 @@
         <span class="brand-sub">Client</span>
     </a>
     <div class="topbar-actions">
-        <button class="icon-btn" id="lang-btn" aria-label="Idioma">
-            <img src="assets/img/ui/globe.png" alt="">
-        </button>
-        <span class="lang-pill">PT/BR</span>
+        <div class="lang-dropdown">
+            <button class="icon-btn" id="lang-btn" aria-label="Idioma">
+                <img src="assets/img/ui/globe.png" alt="">
+            </button>
+            <span class="lang-pill" id="lang-btn-pill"><span id="lang-current">PT/BR</span></span>
+            <div class="lang-menu" id="lang-menu">
+                <button data-lang="pt-br">PT/BR</button>
+                <button data-lang="pt-pt">PT/PT</button>
+                <button data-lang="en-us">EN/US</button>
+                <button data-lang="es">ES</button>
+            </div>
+        </div>
         <button class="icon-btn" id="menu-btn" aria-label="Menu">
             <img src="assets/img/ui/burger.png" alt="">
         </button>
@@ -27,117 +35,123 @@
 </header>
 
 <nav class="mobile-nav" id="mobile-nav">
-    <a href="index.html">Início</a>
-    <a href="#recursos">Recursos</a>
-    <a href="#fps">Comparativo de FPS</a>
-    <a href="#download">Download</a>
-    <a href="faq.html">FAQ</a>
+    <a href="index.html" data-i18n="navInicio">Início</a>
+    <a href="#recursos" data-i18n="navRecursos">Recursos</a>
+    <a href="#fps" data-i18n="navFps">Comparativo de FPS</a>
+    <a href="#download" data-i18n="navDownload">Download</a>
+    <a href="faq.html" data-i18n="navFaq">FAQ</a>
 </nav>
 
 <main>
 
-<section class="hero">
+<section class="hero reveal">
     <img class="hero-logo" src="assets/img/brand/logo.png" alt="MoonLight">
     <h1>MoonLight<span>Client</span></h1>
-    <p class="tagline">A melhor experiência!</p>
+    <p class="tagline" data-i18n="tagline">A melhor experiência!</p>
 
     <div class="hero-actions" id="download">
-        <a class="pill pill-gray" href="#" id="download-btn">
+        <a class="pill pill-gray" href="COLOQUE_AQUI_O_LINK_DE_DOWNLOAD" id="download-btn">
             <img src="assets/img/ui/download.png" alt="">
-            BAIXAR
+            <span data-i18n="download">BAIXAR</span>
         </a>
         <a class="pill pill-white" href="https://discord.gg/" target="_blank" rel="noopener">
             <img src="assets/img/social/blackdiscord.png" alt="">
-            DISCORD
+            <span data-i18n="discord">DISCORD</span>
         </a>
     </div>
 </section>
 
-<section class="section" id="recursos">
-    <div class="section-tag">✨ RECURSOS</div>
+<section class="section reveal" id="recursos">
+    <div class="section-tag" data-i18n="recursosTag">✨ RECURSOS</div>
 
     <div class="card">
-        <h3>Estabilidade &amp; Confiabilidade</h3>
+        <h3 data-i18n="stabilityTitle">Estabilidade &amp; Confiabilidade</h3>
         <ul>
-            <li>Sem crashes indesejados</li>
-            <li>Compatível com servidores populares</li>
+            <li data-i18n="stabilityLi1">Sem crashes indesejados</li>
+            <li data-i18n="stabilityLi2">Compatível com servidores populares</li>
         </ul>
     </div>
 
     <div class="card">
-        <h3>75+ MODS INTEGRADOS</h3>
+        <h3 data-i18n="modsTitle">75+ MODS INTEGRADOS</h3>
         <div class="feature-icons">
             <span class="feature-icon"><img src="assets/img/features/direction.png" alt=""></span>
             <span class="feature-icon"><img src="assets/img/features/blockinfo.png" alt=""></span>
             <span class="feature-icon"><img src="assets/img/features/mousestrokes.png" alt=""></span>
-            <span class="feature-icon"><img src="assets/img/ui/arrow.png" alt=""></span>
+            <span class="feature-icon"><img src="assets/img/features/waypoints.png" alt=""></span>
             <span class="feature-icon"><img src="assets/img/features/nohurtcam.png" alt=""></span>
+            <span class="feature-icon"><img src="assets/img/features/weather_changer.png" alt=""></span>
         </div>
     </div>
 </section>
 
-<section class="section" id="fps">
+<section class="section reveal" id="fps">
     <div class="card fps-card">
-        <h2>GRANDE BOOST DE FPS</h2>
+        <h2 data-i18n="fpsTitle">GRANDE BOOST DE FPS</h2>
 
         <div class="fps-row">
-            <span class="fps-label">2000+ FPS</span>
-            <span class="fps-holder fps-us">
-                <img src="assets/img/brand/logo.png" alt="MoonLight">
-            </span>
+            <div class="fps-icon"><img src="assets/img/brand/logo.png" alt="MoonLight"></div>
+            <div class="fps-bar-area">
+                <span class="fps-label">2000+ FPS</span>
+                <div class="fps-track"><div class="fps-fill fps-fill-us" data-width="100"></div></div>
+            </div>
         </div>
 
         <div class="fps-row">
-            <span class="fps-label">1550 FPS</span>
-            <span class="fps-holder">
-                <img src="assets/img/clients/badlion.png" alt="Badlion">
-            </span>
+            <div class="fps-icon"><img src="assets/img/clients/badlion.png" alt="Badlion"></div>
+            <div class="fps-bar-area">
+                <span class="fps-label">1550 FPS</span>
+                <div class="fps-track"><div class="fps-fill" data-width="77.5"></div></div>
+            </div>
         </div>
 
         <div class="fps-row">
-            <span class="fps-label">1100 FPS</span>
-            <span class="fps-holder">
-                <img src="assets/img/clients/lunar.png" alt="Lunar">
-            </span>
+            <div class="fps-icon"><img src="assets/img/clients/lunar.png" alt="Lunar"></div>
+            <div class="fps-bar-area">
+                <span class="fps-label">1100 FPS</span>
+                <div class="fps-track"><div class="fps-fill" data-width="55"></div></div>
+            </div>
         </div>
 
         <div class="fps-row">
-            <span class="fps-label">650 FPS</span>
-            <span class="fps-holder">
-                <img src="assets/img/clients/labymod.png" alt="LabyMod">
-            </span>
+            <div class="fps-icon"><img src="assets/img/clients/labymod.png" alt="LabyMod"></div>
+            <div class="fps-bar-area">
+                <span class="fps-label">650 FPS</span>
+                <div class="fps-track"><div class="fps-fill" data-width="32.5"></div></div>
+            </div>
         </div>
 
         <div class="fps-row">
-            <span class="fps-label">420 FPS</span>
-            <span class="fps-holder">
-                <img src="assets/img/clients/vanilla.png" alt="Vanilla">
-            </span>
+            <div class="fps-icon"><img src="assets/img/clients/vanilla.png" alt="Vanilla"></div>
+            <div class="fps-bar-area">
+                <span class="fps-label">420 FPS</span>
+                <div class="fps-track"><div class="fps-fill" data-width="21"></div></div>
+            </div>
         </div>
 
-        <p class="fps-config">PC Config: AMD Ryzen 5 5600g, 2x8gb ram ddr4 3200mhz Kingston, B450m pro.</p>
+        <p class="fps-config" data-i18n="fpsConfig">PC Config: AMD Ryzen 5 5600g, 2x8gb ram ddr4 3200mhz Kingston, B450m pro.</p>
     </div>
 </section>
 
 </main>
 
-<button class="open-footer" id="open-footer">Open Footer</button>
+<button class="open-footer" id="open-footer" data-i18n="openFooter">Open Footer</button>
 
 <footer class="footer" id="site-footer">
     <div class="footer-col">
-        <h3>Moonlight Client</h3>
-        <a href="#download">Download</a>
-        <a href="faq.html">FAQ</a>
+        <h3 data-i18n="footerBrand">Moonlight Client</h3>
+        <a href="#download" data-i18n="navDownload">Download</a>
+        <a href="faq.html" data-i18n="footerFaq">FAQ</a>
     </div>
 
     <div class="footer-col">
-        <h3>Legal</h3>
-        <a href="privacidade.html">Política de Privacidade</a>
-        <a href="termos.html">Termos de serviços</a>
-        <a href="mailto:exemplo@gmail.com">Email: Exemplo@gmail.com</a>
+        <h3 data-i18n="footerLegal">Legal</h3>
+        <a href="privacidade.html" data-i18n="footerPriv">Política de Privacidade</a>
+        <a href="termos.html" data-i18n="footerTerms">Termos de serviços</a>
+        <a href="mailto:exemplo@gmail.com" data-i18n="footerEmail">Email: Exemplo@gmail.com</a>
     </div>
 
-    <p class="footer-disclaimer">Não somos afiliados a Mojang ou Microsoft</p>
+    <p class="footer-disclaimer" data-i18n="footerDisclaimer">Não somos afiliados a Mojang ou Microsoft</p>
 
     <div class="footer-social">
         <a href="#" target="_blank" rel="noopener"><img src="assets/img/social/discord.png" alt="Discord"></a>
@@ -147,9 +161,11 @@
         <a href="#" target="_blank" rel="noopener"><img src="assets/img/social/instagram.png" alt="Instagram"></a>
     </div>
 
-    <p class="footer-copy">© MOONLIGHT CLIENT 2026. Todos os direitos reservados.</p>
+    <p class="footer-copy" data-i18n="footerCopy">© MOONLIGHT CLIENT 2026. Todos os direitos reservados.</p>
 </footer>
 
+<script src="assets/js/config.js"></script>
+<script src="assets/js/i18n.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
