@@ -9,10 +9,13 @@ if (openFooterBtn) {
     });
 }
 
-var langBtn = document.getElementById("lang-btn");
+var langTrigger = document.querySelector(".lang-dropdown");
 var langMenu = document.getElementById("lang-menu");
-if (langBtn && langMenu) {
-    langBtn.addEventListener("click", function (event) {
+if (langTrigger && langMenu) {
+    langTrigger.addEventListener("click", function (event) {
+        if (event.target.closest("#lang-menu")) {
+            return;
+        }
         event.stopPropagation();
         langMenu.classList.toggle("open");
     });
