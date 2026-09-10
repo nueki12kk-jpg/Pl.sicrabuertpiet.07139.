@@ -90,14 +90,20 @@ a {
 }
 
 .mobile-nav {
-    display: none;
+    display: flex;
     flex-direction: column;
     background: #1c1c1c;
-    padding: 8px 20px 18px;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.35s ease, padding 0.4s ease;
 }
 
 .mobile-nav.open {
-    display: flex;
+    max-height: 400px;
+    opacity: 1;
+    padding: 8px 20px 18px;
 }
 
 .mobile-nav a {
@@ -385,6 +391,7 @@ a {
     display: flex;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
 }
 
 .lang-menu {
@@ -400,8 +407,8 @@ a {
     min-width: 100px;
     z-index: 30;
     opacity: 0;
-    transform: translateY(-6px);
-    transition: opacity 0.2s ease, transform 0.2s ease;
+    transform: translateY(-14px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .lang-menu.open {
@@ -491,7 +498,11 @@ a {
         justify-content: center;
         gap: 28px;
         background: transparent;
-        padding: 10px 0 0;
+        padding: 10px 0 0 !important;
+        max-height: none;
+        opacity: 1;
+        overflow: visible;
+        transition: none;
     }
 
     .mobile-nav a {
