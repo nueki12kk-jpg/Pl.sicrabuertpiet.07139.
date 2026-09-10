@@ -395,7 +395,7 @@ a {
 }
 
 .lang-menu {
-    display: none;
+    display: flex;
     flex-direction: column;
     position: absolute;
     top: 38px;
@@ -403,18 +403,21 @@ a {
     background: #2b2b2b;
     border: 1px solid #444444;
     border-radius: 10px;
-    overflow: hidden;
     min-width: 100px;
     z-index: 30;
+    max-height: 0;
+    overflow: hidden;
     opacity: 0;
-    transform: translateY(-14px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-8px);
+    border-width: 0;
+    transition: max-height 0.35s ease, opacity 0.3s ease, transform 0.3s ease, border-width 0.35s ease;
 }
 
 .lang-menu.open {
-    display: flex;
+    max-height: 260px;
     opacity: 1;
     transform: translateY(0);
+    border-width: 1px;
 }
 
 .lang-menu button {
