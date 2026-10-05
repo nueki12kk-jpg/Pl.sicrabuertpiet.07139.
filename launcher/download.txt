@@ -1,0 +1,5 @@
+# Link de download do jar do client (libraries/net/moonlight/client/1.8.9/client-1.8.9.jar).
+# Primeira linha com https:// = link. Pode ser a página do Mediafire ou um link direto.
+https://www.mediafire.com/file/COLE-O-ID-AQUI/client-1.8.9.jar/file
+# Opcional (recomendado): o launcher confere o arquivo baixado. Gere com:  sha256sum client-1.8.9.jar
+# sha256: 0000000000000000000000000000000000000000000000000000000000000000
