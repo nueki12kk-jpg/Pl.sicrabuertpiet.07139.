@@ -1,0 +1,34 @@
+logo: logo1.png
+banner: banner1.png
+date: 2026-10-04
+
+@pt-br
+titulo: MoonLight 1.0 chegou!
+texto: A primeira versão pública do MoonLight Client está no ar.
+
+Novidades:
+- Novo launcher com várias contas
+- Cosméticos (capas, asas, bandanas e chapéus)
+- 3D Skin Layers e KeyStrokes totalmente configuráveis
+
+Obrigado por jogar com a gente!
+
+@en-us
+title: MoonLight 1.0 is here!
+text: The first public release of MoonLight Client is live.
+
+What's new:
+- New launcher with multiple accounts
+- Cosmetics (capes, wings, bandanas and hats)
+- Fully configurable 3D Skin Layers and KeyStrokes
+
+Thanks for playing with us!
+
+@es
+titulo: ¡Llegó MoonLight 1.0!
+texto: Ya está disponible la primera versión pública de MoonLight Client.
+
+Novedades:
+- Nuevo launcher con varias cuentas
+- Cosméticos (capas, alas, bandanas y sombreros)
+- 3D Skin Layers y KeyStrokes totalmente configurables

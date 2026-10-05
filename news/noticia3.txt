@@ -1,0 +1,11 @@
+logo: logo3.png
+
+@pt-br
+titulo: Como adicionar mais de uma conta
+texto: Clique na sua cabeça no canto superior direito e depois no botão "+".
+Você pode adicionar quantas contas Microsoft ou offline quiser.
+
+@en-us
+title: How to add more than one account
+text: Click your head in the top-right corner, then the "+" button.
+You can add as many Microsoft or offline accounts as you like.

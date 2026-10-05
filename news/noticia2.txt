@@ -1,0 +1,10 @@
+logo: logo2.png
+banner: banner2.png
+date: 2026-10-01
+
+@pt-br
+titulo: exemplo
+texto: exemplo.
+@en-us
+title: example
+text: example.
