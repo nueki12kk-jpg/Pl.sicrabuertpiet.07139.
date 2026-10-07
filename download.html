@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FAQ — MoonLight Client</title>
+<title>Download — MoonLight Client</title>
 <link rel="icon" href="assets/img/brand/logo.png">
 <link rel="stylesheet" href="assets/css/style.css?v=6">
 </head>
@@ -42,40 +42,53 @@
     <a href="faq.html" data-i18n="navFaq">FAQ</a>
 </nav>
 
-<main class="section legal-content reveal">
-    <h1 data-i18n="faqTitle">Perguntas Frequentes</h1>
-    <p data-i18n="faqIntro1">Criamos este FAQ (guia) para ajudar a esclarecer as dúvidas mais comuns do dia a dia, além de deixar claras as propostas do client.</p>
-    <p><span data-i18n="faqIntro2Pre">Caso sua dúvida não esteja respondida aqui, pergunte no</span> <a href="discordaqui" target="_blank" rel="noopener" data-i18n="faqDiscordLink">Discord</a>.</p>
+<main class="section reveal">
+    <h1 class="dl-title" data-i18n="dlTitle">Download</h1>
+    <p class="dl-sub" data-i18n="dlSubtitle">Escolha a versão para o seu sistema.</p>
 
-    <div class="faq-item">
-        <p class="faq-q" data-i18n="faqQ1">O Moonlight client é gratuito?</p>
-        <p class="faq-a" data-i18n="faqA1">Sim. Não contém cosméticos pagos ou features pagas.</p>
-    </div>
+    <section class="card dl-group" id="windows">
+        <div class="dl-head">
+            <img class="dl-icon" src="assets/img/ui/windows.png" alt="">
+            <h2 data-i18n="dlWindows">Windows</h2>
+        </div>
+        <div class="dl-row">
+            <div class="dl-info">
+                <strong data-i18n="dlX64">X64</strong>
+                <span data-i18n="dlX64Desc">Windows 64 bits (recomendado)</span>
+            </div>
+            <a class="pill pill-gray dl-btn" href="#" data-download="windowsX64">
+                <img src="assets/img/ui/download.png" alt="">
+                <span data-i18n="download">BAIXAR</span>
+            </a>
+        </div>
+        <div class="dl-row">
+            <div class="dl-info">
+                <strong data-i18n="dlX86">X86</strong>
+                <span data-i18n="dlX86Desc">Windows 32 bits</span>
+            </div>
+            <a class="pill pill-gray dl-btn" href="#" data-download="windowsX86">
+                <img src="assets/img/ui/download.png" alt="">
+                <span data-i18n="download">BAIXAR</span>
+            </a>
+        </div>
+    </section>
 
-    <div class="faq-item">
-        <p class="faq-q" data-i18n="faqQ2">O client é permitido em todos os servidores?</p>
-        <p class="faq-a" data-i18n="faqA2">Sim. O Moonlight não contém nenhuma feature que viole as regras de servidores. O client é focado em otimização e inovação, e não conta com cheats ou trapaças injustas.</p>
-    </div>
-
-    <div class="faq-item">
-        <p class="faq-q" data-i18n="faqQ3">Funciona no celular?</p>
-        <p class="faq-a" data-i18n="faqA3">Sim. O Moonlight possui suporte a Android através do PojavLauncher, Mojo, MJ, Zalith e outros.</p>
-    </div>
-
-    <div class="faq-item">
-        <p class="faq-q" data-i18n="faqQ4">Em quais versões do Minecraft o MoonLight Client funciona?</p>
-        <p class="faq-a" data-i18n="faqA4">Temos a 1.8.9 atualmente, porém com planos de outras futuramente.</p>
-    </div>
-
-    <div class="faq-item">
-        <p class="faq-q" data-i18n="faqQ5">Quais diferenciais o MoonLight Client tem em relação a outros clients?</p>
-        <p class="faq-a" data-i18n="faqA5">Focamos em otimização e inovação. Nosso client busca fugir do padrão, servindo para qualquer máquina e com features surpreendentes.</p>
-    </div>
-
-    <div class="faq-item">
-        <p class="faq-q" data-i18n="faqQ6">MoonLight funciona em Minecraft pirata?</p>
-        <p class="faq-a" data-i18n="faqA6">Sim, nosso client opera com extrema segurança tanto no Minecraft original quanto no pirata.</p>
-    </div>
+    <section class="card dl-group" id="universal">
+        <div class="dl-head">
+            <img class="dl-icon" src="assets/img/ui/universal.png" alt="">
+            <h2 data-i18n="dlUniversal">Universal</h2>
+        </div>
+        <div class="dl-row">
+            <div class="dl-info">
+                <strong data-i18n="dlJar">Jar Installer</strong>
+                <span data-i18n="dlJarDesc">Funciona em qualquer sistema com Java 8 ou superior. Instala o MoonLight no Minecraft Launcher oficial.</span>
+            </div>
+            <a class="pill pill-gray dl-btn" href="#" data-download="jarInstaller">
+                <img src="assets/img/ui/download.png" alt="">
+                <span data-i18n="download">BAIXAR</span>
+            </a>
+        </div>
+    </section>
 </main>
 
 <footer class="footer" id="site-footer">
@@ -107,6 +120,7 @@
 
 <script src="assets/js/config.js?v=6"></script>
 <script src="assets/js/i18n.js?v=6"></script>
+<script src="assets/js/download.js?v=6"></script>
 <script src="assets/js/main.js?v=6"></script>
 </body>
 </html>
