@@ -30,5 +30,45 @@
     "texture": "crown",
     "scale": 0.025,
     "posy": 10
+  },
+  {
+    "id": 5,
+    "name": "Cyberhat",
+    "model": "cyberhat",
+    "texture": "cyberhat",
+    "scale": 0.065,
+    "posy": 10
+  },
+  {
+    "id": 6,
+    "name": "jockster",
+    "model": "jockster",
+    "texture": "jockster",
+    "scale": 0.065,
+    "posy": 10
+  },
+  {
+    "id": 7,
+    "name": "kidhat",
+    "model": "kidhat",
+    "texture": "kidhat",
+    "scale": 0.065,
+    "posy": 10
+  },
+  {
+    "id": 8,
+    "name": "piratehat",
+    "model": "piratehat",
+    "texture": "piratehat",
+    "scale": 0.065,
+    "posy": 10
+  },
+  {
+    "id": 9,
+    "name": "steampunkhat",
+    "model": "steampunkhat",
+    "texture": "steampunkhat",
+    "scale": 0.065,
+    "posy": 10
   }
 ]
