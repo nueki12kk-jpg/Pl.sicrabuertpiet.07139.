@@ -70,5 +70,16 @@
     "priv4Title": "4. Segurança e Download Seguro",
     "priv4Body": "Para garantir a integridade dos seus dados locais e do seu dispositivo, o usuário deve baixar o Moonlight Client apenas através dos nossos canais oficiais de distribuição. Não nos responsabilizamos por arquivos alterados por terceiros em sites não autorizados.",
     "priv5Title": "5. Alterações nesta Política",
-    "priv5Body": "Esta Política de Privacidade pode ser atualizada para refletir novas mudanças no software. Alterações importantes serão notificadas em nossos canais oficiais."
+    "priv5Body": "Esta Política de Privacidade pode ser atualizada para refletir novas mudanças no software. Alterações importantes serão notificadas em nossos canais oficiais.",
+    "dlTitle": "Download",
+    "dlSubtitle": "Escolha a versão para o seu sistema.",
+    "dlWindows": "Windows",
+    "dlUniversal": "Universal",
+    "dlX64": "X64",
+    "dlX64Desc": "Windows 64 bits (recomendado)",
+    "dlX86": "X86",
+    "dlX86Desc": "Windows 32 bits",
+    "dlJar": "Jar Installer",
+    "dlJarDesc": "Funciona em qualquer sistema com Java 8 ou superior. Instala o MoonLight no Minecraft Launcher oficial.",
+    "dlSoon": "EM BREVE"
 }
