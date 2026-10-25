@@ -7,7 +7,7 @@ const MOONLIGHT_CONFIG = {
     downloads: {
         windowsX64: "https://www.mediafire.com/file/k2bt9izi2cqg9im/MoonLight-Launcher-1.0.0-wx64.exe/file",
         windowsX86: "https://www.mediafire.com/file/xuxg1m7vbrium34/MoonLight-Launcher-Setup-1.0.0.exe/file",
-        jarInstaller: "https://www.mediafire.com/file/w7j8rc8o65q6y7g/MoonLight-Installer.jar/file"
+        jarInstaller: "https://www.mediafire.com/file/5rqoens5zsn4acx/client-1.8.9.jar/file/"
     },
     get cdnBase() {
         return `https://cdn.jsdelivr.net/gh/${this.dataOwner}/${this.dataRepo}@${this.dataBranch}/players/`;
