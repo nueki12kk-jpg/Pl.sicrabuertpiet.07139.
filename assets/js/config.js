@@ -5,7 +5,7 @@ const MOONLIGHT_CONFIG = {
     // Links da pagina de download (download.html). Troque pelos links reais (https://...).
     // Enquanto o valor nao for um link http(s), o botao aparece desativado como "EM BREVE".
     downloads: {
-        windowsX64: "https://www.mediafire.com/file/k2bt9izi2cqg9im/MoonLight-Launcher-1.0.0-wx64.exe/file",
+        windowsX64: "https://www.mediafire.com/file/jrk49416oa9ivkf/MoonLight-Launcher-Setup-1.0.0-wx64.exe/file",
         windowsX86: "https://www.mediafire.com/file/xuxg1m7vbrium34/MoonLight-Launcher-Setup-1.0.0.exe/file",
         jarInstaller: "https://www.mediafire.com/file/5rqoens5zsn4acx/client-1.8.9.jar/file/"
     },
